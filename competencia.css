@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+
+.logo span {
+    color: greenyellow;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: red;
+}
+
+.header {
+    background-image: url(../Img/gua.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    height: 1800px;
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .logo-img {
+    width: 3.5rem;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: greenyellow;
+}
+
+.title1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+
+.title2 {
+    margin-bottom: 20px;
+    font-size: 70px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.lista {
+    font-size: 33px;
+    color: white;
+    background-color: rgba(234, 11, 250, 0.9);
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+p {
+    margin-bottom: 40px;
+    font-size: 24px;
+    color: white;
+    padding: 0 150px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid greenyellow;
+    color: #fff;
+    text-decoration: none;
+    background: greenyellow;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 50px 0;
+    background: limegreen;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: centers;
+}
+
+.box-container .box {
+    height: 250px;
+    width: 350px;
+    background-image: url(../Img/total_.webp);
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin: 20px;
+}
+
+
+.box-container .box i {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #e91e63;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #e91e63;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.price {
+    background-image: url(../Img/OIP\ \(3\).jfif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 1000px;
+    background-size: 99% 99%;
+}
+
+.about {
+    background: #303030;
+    padding: 50px 0;
+}
+
+
+
+@media (max-width: 768px) {
+    p {
+        padding: 0 50px;
+    }
+    .title{
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+    .sau {
+        height: 100vh;
+        padding: 50px 0;
+    }
+    .about {
+        height: 100vh;
+        padding: 50px 0;
+    }
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .f-enlaces {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
